@@ -5,5 +5,5 @@ import Welcome from "./components/Welcome";
 
 
 
-ReactDOM.render(<Welcome />, document.getElementById("root"));
+ReactDOM.render(<Welcome name="Hey"/>, document.getElementById("root"));
 ReactDOM.render(<App />, document.getElementById("root"));
